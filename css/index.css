@@ -1,0 +1,355 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+html{
+	font-family:Verdana,Arial, sans-serif;
+	font-size: 16px;
+	background-color: #707070;
+}
+#principal{
+	min-width:1800px;
+	max-width:2300px;
+	margin:0 auto;
+	background-color: #000;
+}
+/*CONFIGURAÇÕES DO HEADER****************/
+header{
+	background-color: #000;
+	width: 100%;
+	height: 80px;
+}
+header figure img{
+	width: 70px;
+	margin: 5px 5px 5px 125px;
+	float: left
+}
+header h1{
+	font-family: MS Gothic;
+	font-size: 54px;
+	text-transform: uppercase;
+	float: left;
+	margin:15px 10px;
+	color: #FFF;
+}
+/*CONFIGURAÇOES DO MENU DE NAVEGAÇÃO********************/
+nav{
+	height: 70px;
+	background-color: #4B0082;
+}
+nav ul{
+	display: inline-block;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	background-color: #1C1C1C;
+	padding:10px 100px;
+	margin: auto 140px;
+	border:3px solid transparent;
+}
+nav ul li:hover,nav ul li:active,#curso-marketing article a:hover{
+	border: 3px solid #9DB240;
+}
+nav ul li a{
+	font-size: 30px;
+	font-family: MS Gothic;
+	font-weight: bold;
+	color: #696969;
+	text-decoration:none;
+}
+/*CONFIGURAÇÕES DA AREA DOS CURSOS********************************/
+main h2{
+	color:#FFF;
+	width: 100%;
+	margin:18px;
+	text-align: center;
+	text-transform:uppercase;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+#curso-venda{
+	height: 500px;
+	background-color: #000;
+} 	
+#curso-venda article{
+	width: 33%;
+	height: 90%;
+	float: right;
+	border-right:1px solid #FFF;
+}
+#curso-venda article figure img{
+	width: 80%;
+	margin:10px 60px;
+}
+#curso-venda article h3{
+	width: 90%;
+	font-size: 20px;
+	font-family: Verdana;
+	color: #FFF;
+	text-align: center;
+	margin: 5px 30px;
+	text-transform: uppercase;
+}
+#curso-venda article p{
+	width: 70%;
+	font-family: Miriam Libre;
+	font-size: 16px;
+	text-align: center;
+	color: #FFF;
+	margin: 0px 80px;
+}
+/*CONFIGURAÇÃO DA AREA DE VANTAGENS E PROPAGANDA********************/
+#curso-marketing{
+	height: 400px;
+	border-top:1px dashed #FFF;
+	border-bottom: 1px solid #FFF;
+	width: 100%;
+	background-color: #000;
+}
+#curso-marketing article{
+	width: 50%;
+	height: 340px;
+	float:left;
+}
+#curso-marketing article h3{
+	font-size: 26px;
+	font-family: Verdana;
+	color: #FFF;
+	margin:15px 150px;
+}
+
+#curso-marketing article a{
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 32px;
+	font-weight: bold;
+	font-family: Lucida Sans Unicode;
+	border:3px solid #1C1C1C;
+	margin-left: 160px;
+	background-color: #3C1F83;
+	padding:0px 60px;
+	display: inline-block; /* Necessário para que a margem funcione corretamente */
+    margin-top: 50px;
+}
+#curso-marketing article li{
+	font-size: 24px;
+	font-family: Miriam Libre;
+	color: #FFF;
+	margin-left:100px;
+}
+#curso-marketing div{
+	height: 100px;
+	width: 50%;
+	margin-top:25px;
+	float:left;
+}
+#curso-marketing iframe{
+	float: left;
+	border-left: 150px solid #000;
+}
+/* CONFIGURAÇÃO DO FOOTER(RODAPE)**********************/
+footer{
+	width: 100%;
+	height: 200px;
+	background-color: #3C1F83;
+	border: 5px solid #000;
+}
+footer address{
+	float:left;
+	width: 60%;
+}
+footer address h4, footer address p{
+	font-size: 20px;
+	font-family: Lucida Sans Unicode;
+	color:#FFF;
+	padding:10px 50px;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+footer ul{
+	float: right;
+	width: 40%;
+	padding-top: 10px;
+}
+footer ul li a{
+	color: #FFF;
+	font-size: 20px;
+	font-family:Lucida Sans Unicode;
+	text-decoration:none;
+}
+/*CONFIGURAÇÃO DA AREA DOS DEPOIMENTOS**************************/
+#depoimentos{
+	height: 360px;
+	background-color: #000;
+	border-bottom: 1px dashed #FFF;
+}
+
+#depoimentos h3{
+	font-size: 26px;
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+	padding: 15px 0px;
+}
+
+#depoimentos article{
+	width: 24%;
+	height: 80%;
+	float: left;
+	border-left: 1px solid #FFF;
+	padding: 15px 4px;
+}
+
+#depoimentos article:last-child{
+	border-right: 1px solid #FFF;
+}
+
+#depoimentos article figure{
+	width: 128px;
+	height: 128px;
+	margin:20px 10px 10px 50px;
+	float: left;
+}
+
+#depoimentos article figure img{
+	height: 150px;
+	width: 150px;
+}
+
+#depoimentos article h4{
+	font-size: 18px;
+	color: #FFF;
+	width: 180px;
+	margin: 20px 40px 10px 2px;
+	float: right;
+}
+
+#depoimentos article p{
+	width: 50%;
+	font-size: 14px;
+	line-height: 25px;
+	padding: 5px 10px;
+	color: #FFF;
+	float: right;
+
+}
+
+#informacoes{
+	height: 300px;
+	background-color: #000;
+}
+
+#contato{
+	width: 45%;
+	float: left; 
+}
+
+#contato h3{
+	margin: 15px 30px;
+	color: #FFF;
+}
+
+#contato .input, 
+#contato textarea {
+	display: block;
+	width: 390px;
+	font-size: 14px;
+	margin: 15px 30px;
+	border: 1px solid #0C718A;
+	padding-left: 6px;
+}
+
+#contato select{
+	display: block;
+	width: 400px;
+	font-size: 14px;
+	border: 1px solid #0C718A;
+	margin: 10px 30px;
+}
+
+#contato .botao {
+	float: left;
+	width: 130px;
+	height: 40px;
+	background-color: #1A0181;
+	color: #FFFFFF;
+	margin-left: 30px;
+	font-size: 22px;
+}
+#mapa{
+	width: 55%;
+	height: 100%;
+	float: right;
+}
+
+#mapa iframe {
+	width: 90%;
+	height: 85%;
+	margin: 20px 30px;
+}
+
+#quemsomos {
+    height: 360px;
+    background-color: #000;
+    border-bottom: 1px dashed #FFF; 
+}
+
+#quemsomos h3{
+	font-size: 26px;
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+	padding: 15px 0px;
+}
+
+#quemsomos article{
+	width: 24%;
+	height: 80%;
+	float: left;
+	border-left: 1px solid #FFF;
+	padding: 15px 4px;
+}
+
+#quemsomos article:last-child{
+	border-right: 1px solid #FFF;
+}
+
+#quemsomos article figure{
+	width: 128px;
+	height: 128px;
+	margin:20px 10px 10px 50px;
+	float: left;
+}
+
+#quemsomos article figure img{
+	height: 150px;
+	width: 150px;
+}
+
+#quemsomos article h4{
+	font-size: 18px;
+	color: #FFF;
+	width: 180px;
+	margin: 20px 40px 10px 2px;
+	float: right;
+}
+
+#quemsomos article p{
+	width: 50%;
+	font-size: 14px;
+	line-height: 25px;
+	padding: 5px 10px;
+	color: #FFF;
+	float: right;
+
+}
+/*AJUSTES FEITOS DEPOIS DE PASSAR NO VALIDADOR*/
+#video iframe{
+	width: 700px;
+	height: 350px;
+	border:0px solid transparent;
+}

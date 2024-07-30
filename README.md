@@ -22,3 +22,8 @@ O site consiste nas seguintes seções principais:
 - `index.html`: Página principal do site.
 - `css/index.css`: Arquivo de estilos CSS para o site.
 - `imagens/`: Pasta contendo todas as imagens utilizadas no site.
+
+## Deploy
+
+O site está disponível online através do GitHub Pages. Você pode visualizá-lo [neste link](https://raul4nt.github.io/dw_finalproj/).
+
